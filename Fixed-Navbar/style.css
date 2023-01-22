@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-section {
+    text-align: justify;    
+    padding-top: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* How to make fixed navbar */
+.nav-bar {
+  position: fixed;
+  width: 100%;
+
+  background-color: rgb(118, 118, 118);
+
+  z-index: 999;
+}
+
+
