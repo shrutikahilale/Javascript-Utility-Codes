@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom alert box</title>
+</head>
+<body>
+    <form id="form" class="form lessVisible">
+        Email <input type="email" id="email" name="email">
+        Password <input type="password" id="password" name="password">
+        <button type="submit" id="submitbtn">Submit</button>
+    </form>
+
+    <div class="prompt-box" id="prompt-box">
+        Please fill the required details!            
+        <button type="submit" class="okbtn" onclick="closePrompt()">Okay</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
