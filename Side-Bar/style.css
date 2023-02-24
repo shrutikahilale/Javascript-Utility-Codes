@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5c5b5b;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar {
+    width: min-content;
+    height: 100vh;
+    align-items: center;
+    background-color: #2b2b2b;
+}
+
+.icons,
+.show-text {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hidden-text {
+    display: none;
+}
